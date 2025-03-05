@@ -60,5 +60,5 @@ const s2 = s1.charAt(0)+s1.charAt(5);
 const n1 = "fikri Andra irham";
 const n2 = n1.charAt(0).toUpperCase() + n1.charAt(6) + n1.charAt(12).toUpperCase();
 
-console.log(`Initials of John Doe: ${s2}`);
-console.log(`Initials of Fikri Andra Irham: ${n2}`);
+console.log(`Initials of ${s1}: ${s2}`);
+console.log(`Initials of ${n1}: ${n2}`);
