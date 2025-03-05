@@ -49,7 +49,7 @@ console.log(`Radius: ${r} → Diameter: ${d}, Circumference: ${circumference.toF
 >
 > Radius: 5 → Diameter: 10, Circumference: 31.4159, Area: 78.539
 
-## 3. Find the third angle of a triangle given two angles
+## 3. Find the third angle of a triangle
 **Code:**
 ```
 let e, f, g;
