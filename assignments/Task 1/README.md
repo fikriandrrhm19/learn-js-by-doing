@@ -15,7 +15,7 @@ This repository contains a collection of basic JavaScript exercises covering fun
 Each exercise is separated by a visual separator for cleaner console output.
 
 ## 1. Calculate the area of a rectangle 
-**Script:**
+**Code:**
 ```
 let len = 5;
 let wid = 3;
@@ -31,7 +31,7 @@ console.log(`Length: ${len}, Width: ${wid} → Area = ${area_rectangle}`);
 > Length: 5, Width: 3 → Area = 15
 
 ## 2. Calculate diameter, circumference, and area of a circle
-**Script:**
+**Code:**
 ```
 let r = 5;
 let d = 2 * r;
@@ -50,7 +50,7 @@ console.log(`Radius: ${r} → Diameter: ${d}, Circumference: ${circumference.toF
 > Radius: 5 → Diameter: 10, Circumference: 31.4159, Area: 78.539
 
 ## 3. Find the third angle of a triangle given two angles
-**Script:**
+**Code:**
 ```
 let e, f, g;
 
@@ -65,7 +65,7 @@ console.log(`Given angles: a = ${e}°, b = ${f}° → The third angle is: ${g}°
 > Given angles: a = 80°, b = 65° → The third angle is: 35°
 
 ## 4. Calculate the difference between two dates in days
-**Script:**
+**Code:**
 ```
 let date1 = new Date("2024-03-19");
 let date2 = new Date("2024-03-21");
@@ -80,7 +80,7 @@ console.log(`Days difference between ${date1.toDateString()} and ${date2.toDateS
 > Days difference between Tue Mar 19 2024 and Thu Mar 21 2024 → 2 days
 
 ## 5. Display name initials in uppercase
-**Script:**
+**Code:**
 ```
 const s1 = "John Doe";
 const s2 = s1.charAt(0)+s1.charAt(5);
